@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modification">
+
+    <TableRow
+        android:layout_width="150dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="207dp">
+
+        <ImageView
+            android:id="@+id/logo1"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_logo_01" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="104dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="520dp">
+
+        <ImageView
+            android:id="@+id/logo2"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/ic_logo_02" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="150dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="211dp"
+        android:layout_marginEnd="260dp">
+
+        <ImageView
+            android:id="@+id/logo3"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/ic_logo_03" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="150dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="261dp">
+
+        <ImageView
+            android:id="@+id/logo4"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/ic_logo_04" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="150dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginEnd="205dp">
+
+        <ImageView
+            android:id="@+id/logo5"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/ic_logo_05" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="205dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="517dp"
+        android:layout_marginEnd="206dp">
+
+        <ImageView
+            android:id="@+id/logo6"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/ic_logo_00" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="205dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="2dp">
+
+        <EditText
+            android:id="@+id/logoName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Adress"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="205dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="204dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="524dp" >
+
+        <EditText
+            android:id="@+id/logoName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:ems="10"
+            android:hint="Enter Adress"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="205dp"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="1dp" >
+
+        <EditText
+            android:id="@+id/logoName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Adress"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="205dp"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="0dp">
+
+        <EditText
+            android:id="@+id/logoName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:hint="Enter Adress"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="205dp"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="414dp"
+        android:layout_marginEnd="0dp">
+
+        <EditText
+            android:id="@+id/logoName5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Adress"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="205dp"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="516dp"
+        android:layout_marginEnd="1dp" >
+
+        <EditText
+            android:id="@+id/logoName6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:ems="10"
+            android:hint="Enter Adress"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:hint="Enter Adress" />
+</RelativeLayout>
